@@ -1,6 +1,4 @@
 import io.restassured.RestAssured;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
@@ -9,7 +7,7 @@ import static io.restassured.RestAssured.*;
 // when - submit api (http request + resource)
 // then - validate response
 
-public class practice {
+public class RestAssuredPractice {
     @Test
     // POST request
     public void post() {

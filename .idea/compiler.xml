@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="REST API practice" />
+        <module name="rest_assured_practice" />
       </profile>
     </annotationProcessing>
   </component>
