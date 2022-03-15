@@ -10,7 +10,6 @@ import static io.restassured.RestAssured.*;
 // then - validate response
 
 public class RestAssuredPractice {
-public class practice {
     public String employee_id = "1";
     @Test
     // POST request
