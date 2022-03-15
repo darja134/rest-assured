@@ -17,9 +17,9 @@ public class RestAssuredPractice {
         String employee_id =
         //Response response =
         given().
-                body("{\"name\": \"test name134\"," +
-                        "\"salary\": \"134\"," +
-                        "\"age\": \"134\"}").
+                body("{\"name\": \"test name135\"," +
+                        "\"salary\": \"135\"," +
+                        "\"age\": \"135\"}").
         when().
                 post("api/v1/create").
         then().log().all().
@@ -47,7 +47,7 @@ public class RestAssuredPractice {
         String employee_id_put = "1";
         RestAssured.baseURI = "http://dummy.restapiexample.com/";
         given().
-                body("{\"name\": \"test name135\"}").
+                body("{\"name\": \"test name136\"}").
         when().
                 put("api/v1/update/" + employee_id_put).
         then().log().all().
