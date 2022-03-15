@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="REST API practice" />
         <module name="rest_assured_practice" />
+        <module name="REST-API-RestAssuredPractice" />
       </profile>
     </annotationProcessing>
   </component>

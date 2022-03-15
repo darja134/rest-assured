@@ -10,12 +10,11 @@ import static io.restassured.RestAssured.*;
 // then - validate response
 
 public class RestAssuredPractice {
-    public String employee_id = "1";
     @Test
     // POST request
     public void post() {
         RestAssured.baseURI = "http://dummy.restapiexample.com/";
-        employee_id =
+        String employee_id =
         //Response response =
         given().
                 body("{\"name\": \"test name134\"," +
@@ -50,9 +49,9 @@ public class RestAssuredPractice {
         given().
                 body("{\"name\": \"test name135\"}").
         when().
-                put("api/v1/update/" + employee_id).
+                put("api/v1/update/" + employee_id_put).
         then().log().all().
                 statusCode(200);
-        System.out.println("id = " + employee_id);
+        System.out.println("id = " + employee_id_put);
     }
 }
